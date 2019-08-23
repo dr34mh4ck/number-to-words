@@ -19,7 +19,7 @@ public class NumberToWordsParserTest {
 	private static final Integer NUMBER_TEN = 10;
 	private static final String TEN = "Ten";
 	private static final Integer NUMBER_HUNDRED = 101;
-	private static final String ONE_HUNDRED_ONE = "One hundred one";
+	private static final String ONE_HUNDRED_ONE = "One hundred and one";
 	private static final Integer EIGHTY_FIVE_NUMBER = 85;
 	private static final String EIGHTY_FIVE = "Eighty five";
 	private static final Integer NEGATIVE_FOURTY_SEVEN_NUMBER = -47;
