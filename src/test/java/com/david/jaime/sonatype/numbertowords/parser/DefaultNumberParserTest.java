@@ -16,15 +16,15 @@ public class DefaultNumberParserTest {
 	
 	private NumberNameRepository numberNameRepository;
 	
-	private static final String TEST_ONE_EXPECTED_VALUE = "two hundred fifty six";
-	private static final String TEST_ONE_EXPECTED_NEGATIVE_VALUE = "Negative two hundred fifty six";
-	private static final String TEST_TWO_EXPECTED_VALUE = "fifty six thousand three hundred fourty five";
-	private static final String TEST_TWO_EXPECTED_NEGATIVE_VALUE = "Negative fifty six thousand three hundred fourty five";
-	private static final String TEST_THREE_EXPECTED_VALUE = "two million five hundred sixty seven thousand eight hundred ninety";
-	private static final String TEST_THREE_EXPECTED_NEGATIVE_VALUE = "Negative two million five hundred sixty seven thousand eight hundred ninety";
-	private static final String TEST_FOUR_EXPECTED_VALUE = "one billion nine hundred eighty seven million eight hundred ninety thousand two hundred thirty five";
-	private static final String TEST_FOUR_EXPECTED_NEGATIVE_VALUE = "Negative one billion nine hundred eighty seven million eight hundred ninety thousand two hundred thirty five";
-	private static final String TEST_MAX_SUPPORTED_VALUE = "two billion one hundred fourty seven million four hundred eighty three thousand six hundred fourty seven";
+	private static final String TEST_ONE_EXPECTED_VALUE = "two hundred and fifty six";
+	private static final String TEST_ONE_EXPECTED_NEGATIVE_VALUE = "Negative two hundred and fifty six";
+	private static final String TEST_TWO_EXPECTED_VALUE = "fifty six thousand three hundred and fourty five";
+	private static final String TEST_TWO_EXPECTED_NEGATIVE_VALUE = "Negative fifty six thousand three hundred and fourty five";
+	private static final String TEST_THREE_EXPECTED_VALUE = "two million five hundred sixty seven thousand eight hundred and ninety";
+	private static final String TEST_THREE_EXPECTED_NEGATIVE_VALUE = "Negative two million five hundred sixty seven thousand eight hundred and ninety";
+	private static final String TEST_FOUR_EXPECTED_VALUE = "one billion nine hundred eighty seven million eight hundred ninety thousand two hundred and thirty five";
+	private static final String TEST_FOUR_EXPECTED_NEGATIVE_VALUE = "Negative one billion nine hundred eighty seven million eight hundred ninety thousand two hundred and thirty five";
+	private static final String TEST_MAX_SUPPORTED_VALUE = "two billion one hundred fourty seven million four hundred eighty three thousand six hundred and fourty seven";
 	private static final String TEST_MIN_SUPPORTED_VALUE = "Negative two billion one hundred fourty seven million four hundred eighty three thousand six hundred fourty eight";
 	
 
